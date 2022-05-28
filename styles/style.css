@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -63,7 +64,7 @@
 --letter-spacing-s: .75rem;
 }
 } 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400');
+
 
 html {
   font-size: 100%;
@@ -111,26 +112,31 @@ h4 {
 h5 {
   font-size: var(--text-xs)
 }
+
 small, .text_small {
   font-size: 0.8rem;
 }
+
 img {
 display: block;
 max-width: 100%;
 object-fit: cover;
 }
+
 .container {
 width: min(80%, 80rem);
 margin-inline: auto;
 padding-inline: 2em;
 margin-block: 2em;
 }
+
 .brand-section {
   display: block;
   margin-bottom: 1em;
   text-align: left;
   margin-left: 2em;
 }
+
 .title {
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-s);
@@ -138,63 +144,78 @@ margin-block: 2em;
   line-height: 1.1;
   margin-top: 2em;
 }
+
 .block-text {
   display: block;
   font-weight: var(--fw-bold);
   color: var(--clr-accent);
   margin-bottom: 0;
 }
+
 .intro {
   color: inherit;
   box-shadow: var(--bs);
   text-align: center;
   padding-bottom: 2em;
 }
+
 .intro-text-section {
   padding: 0 2em 2em 2em;
 }
+
 .intro >* {
   width: 100%;
 }
+
 .intro-img-section {
   object-fit: cover;
   object-position: center;
 }
+
 .img {
   min-width: 100%;
   min-height: 100%
 }
+
 .img-mobile {
   display: block;
 }
+
 .img-desktop {
   display: none;
 }
+
 .intro-form {
   width: 100%;
   background-color: inherit;
   color: inherit;
 } 
+
 .form-row {
   display: flex;
   margin-inline: auto;
   flex-grow: 1; 
 }
+
 .form-row >:nth-child(1) {
   flex-basis: 80%;
 }
+
 .form-row >:nth-child(2) {
   flex-basis: 20%;
 }
+
 .form-input,
 .btn {
   border-radius: 20em;
   padding: 0.5em 0.75em;
   border: 0.065em solid var(--clr-primary-DesaturatedRed);
 }
+
 .form-input::placeholder {
   color: var(--clr-primary-DesaturatedRed);
 }
+
 .btn {
   color: var(--clr-light);
   background-color:var(--clr-primary-SoftRed);
@@ -204,10 +225,18 @@ margin-block: 2em;
   right: 2em;
   transition: 250ms all ease-in cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
 .btn:hover,
 .btn:focus {
   background-color: var(--clr-primary-DesaturatedRed);
   outline: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1em;
+  z-index: -1;
+
 }
 .attribution { 
   font-size: 11px; text-align: center;
