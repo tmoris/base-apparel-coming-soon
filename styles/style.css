@@ -119,7 +119,6 @@ object-fit: cover;
 .container {
   width: min(80%, 60rem);
   margin-inline: auto;
-  padding-inline: 2em;
 }
 
 .flex-centered {
@@ -259,24 +258,30 @@ object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat; 
   }
+
   .intro {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: left;
     padding-bottom: 0;
   }
+
   .intro-img-section {
     grid-row:  span 2;
   }
+
   .intro-text-section {
     place-content: center;
   }
+
   .img {
     height: 100%
   }
+
   .img-mobile {
     display: none;
   }
+
   .img-desktop {
     display: block;
   }
