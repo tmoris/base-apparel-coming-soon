@@ -32,13 +32,6 @@
 --clr-light: hsl(0, 0%, 100%);
 --clr-dark: hsl(0, 0%, 13%);
 
- /* line heights  */
- --line-height-xs: 1rem; /* 16px */
- --line-height-sm: 1.25rem; /* 20px */
- --line-height-base: 1.5rem; /* 24px */
- --line-height-lg: 1.75rem; /* 28px */
- --line-height-xl: 1.75rem; /* 28px */
- --line-height-2xl: 2rem; /* 32px */
  /* letter spacing  */
 --letter-spacing-s: .5rem;
 /* border-radius */
@@ -50,7 +43,7 @@
 --br-rounded-xl: 0.75rem; /* 12px */
 
 /* box-shadow */
---bs: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+--bs: 0 6px 8px -2px rgb(0 0 0 / 0.1), 0 4px 6px -3px rgb(0 0 0 / 0.1);
 }
 
 @media screen and (min-width: 62em) {
@@ -124,24 +117,22 @@ object-fit: cover;
 }
 
 .container {
-  width: min(80%, 80rem);
+  width: min(80%, 60rem);
   margin-inline: auto;
   padding-inline: 2em;
-  margin-block: 2em;
 }
 
 .flex-centered {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .brand-section {
   display: block;
-  margin-bottom: 1em;
   text-align: left;
-  margin-left: 2em;
+  margin: 2em;
 }
 
 .title {
@@ -248,7 +239,7 @@ height: 100vh;
 
 .footer {
   position: absolute;
-  bottom: 1em;
+  bottom: 0;
   z-index: -1;
 
 }
