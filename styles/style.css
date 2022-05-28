@@ -117,7 +117,7 @@ object-fit: cover;
 }
 
 .container {
-  width: min(80%, 40rem);
+  width: min(80%, 60rem);
   margin-inline: auto;
 }
 
