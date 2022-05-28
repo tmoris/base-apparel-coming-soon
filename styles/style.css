@@ -124,12 +124,19 @@ object-fit: cover;
 }
 
 .container {
-width: min(80%, 80rem);
-margin-inline: auto;
-padding-inline: 2em;
-margin-block: 2em;
+  width: min(80%, 80rem);
+  margin-inline: auto;
+  padding-inline: 2em;
+  margin-block: 2em;
 }
 
+.flex-centered {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
 .brand-section {
   display: block;
   margin-bottom: 1em;
