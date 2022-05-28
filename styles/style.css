@@ -235,6 +235,11 @@ object-fit: cover;
 .btn-icon {
   min-width: 0.75em ;
 }
+.btn-text {
+visibility: hidden;
+position: absolute;
+right: 0;
+}
 
 .footer {
   position: absolute;
